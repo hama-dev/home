@@ -2,14 +2,20 @@
   "name": "boilerplate-react-app",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "",
   "license": "MIT",
   "scripts": {
     "serve": "live-server public/",
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
-    "test": "jest --config=jest.config.json",
-    "start": "node server/server.js",
+    "test": "react-scripts test --env=jsdom",
+    "deploy":"gh-pages -d build",
+    "eject":"react-scripts eject",
+    "start": "react-scripts start",
+    "build":"react-scripts build",
+    "predeploy":"npm run build",
+
     "heroku-postbuild": "npm run build:prod"
   },
   "dependencies": {
