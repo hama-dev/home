@@ -1,0 +1,49 @@
+.admin-dashboard {
+  margin-top: 80px;
+  margin-left: 25%;
+  // text-align: center;
+}
+
+.admin-dashboard-title {
+  font-size: 10rem;
+  margin-bottom: 5%;
+  color: white;
+  margin-left: 11%;
+  letter-spacing: 3rem;
+}
+
+.admin-dashboard-btn {
+  cursor: pointer;
+  margin-bottom: 5%;
+  border: none;
+  outline: none;
+  font-size: 3rem;
+  padding: 1.5rem;
+  margin-right: 4%;
+  border-radius: 20px;
+  color: white;
+}
+
+.pp {
+  background-color: #e74c3c;
+}
+
+.sr {
+  background-color: #dbaf00;
+}
+
+.cp {
+  background-color: #009c41;
+}
+
+.pp:hover {
+  background-color: #c74234;
+}
+
+.sr:hover {
+  background-color: #c09a00;
+}
+
+.cp:hover {
+  background-color: #018035;
+}

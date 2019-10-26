@@ -1,0 +1,47 @@
+.view-post-buyNow {
+  background-color: rgba(194, 184, 185, 0.541);
+  padding: 2rem;
+  margin: 2em;
+  box-shadow: 5px 5px 5px rgba($rose, 0.5);
+  margin-left: 0;
+}
+
+.send-requesy-phone-number {
+  border: none;
+  outline: none;
+  font-size: 1.5em;
+  padding: 0.2em;
+  margin-bottom: 2%;
+}
+
+.send-requesy-quantity {
+  padding: 0.2em;
+  display: inline-block;
+  width: 25%;
+  border: none;
+  outline: none;
+  font-size: 1.5em;
+}
+
+.send-request-price {
+  display: inline;
+  font-size: 1.5em;
+}
+
+.send-success {
+  display: inline;
+  font-size: 1.5em;
+  color: #009c41;
+}
+
+.send-error {
+  display: inline;
+  font-size: 1.5em;
+  color: #c74234;
+}
+
+.send-requesy-btn-buynow {
+  border: none;
+  outline: none;
+  margin-top: 5%;
+}

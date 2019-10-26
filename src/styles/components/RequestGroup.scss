@@ -1,0 +1,175 @@
+ .image-group {
+  margin: 0;
+  padding: 0;
+  max-width: 1140px;
+  margin-bottom: 4rem;
+}
+
+.image-group-form {
+  margin: 0 auto;
+  background-color: rgba(223, 201, 203, 0.596);
+  height: auto;
+  width: 250px;
+  margin-top: 14%;
+}
+
+.image-group-txt {
+  position: relative;
+  padding: 1rem;
+  text-align: center;
+}
+
+.image-group-img {
+  padding: 2%;
+  height: 28vh;
+  width: 250px;
+}
+
+.image-group-title {
+  font-size: 2rem;
+  color: #d8c8b8;
+  text-decoration: none;
+}
+
+.image-group-title:hover{
+    color: #5a4f46;
+
+}
+
+.image-group-price {
+  font-size: 1.7rem;
+  margin-bottom: 10%;
+  color: #cfc9c3;
+}
+
+.image-group-buy-btn {
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  color: #362310;
+  padding: 3.5%;
+  border-radius: 10px;
+  margin-bottom: 2%;
+  margin-left: 42%;
+  background-color: rgb(245, 245, 245);
+}
+
+.image-group-buy-btn:hover {
+  background-color: rgb(228, 228, 228);
+}
+
+.image-group-delete-btn {
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  color: #362310;
+  padding: 3%;
+  margin-left: 39.5%;
+  margin-bottom: 2%;
+  border-radius: 5px;
+  background-color: #c743345d;
+}
+
+.image-group-delete-btn:hover {
+  background-color: #a7352865;
+}
+
+
+
+.request-group-txt {
+  padding: 1rem;
+  text-align: center;
+  color: #d8c8b8;
+}
+
+.request-group-sendby {
+  color: #d8c8b8;
+  font-size: 2.5rem;
+  text-decoration: none;
+}
+
+.request-group-sendby:hover {
+  color: #fbff00;
+  font-size: 2.5rem;
+  text-decoration: none;
+}
+
+.request-group-quantity {
+  font-size: 1.3rem;
+}
+
+.request-group-sentat {
+  font-size: 1.3rem;
+}
+
+.request-group-total {
+      color: #fbff00;
+
+  font-size: 2.3rem;
+}
+
+.request-group-email {
+  font-size: 1.3rem;
+}
+
+.request-group-phone {
+  font-size: 2.4rem;
+}
+
+.image-group-approve-btn {
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  color: white;
+  padding: 3%;
+  border-radius: 10px;
+  margin-bottom: 2%;
+  margin-left: 0%;
+  background-color: #009c41;
+}
+
+.image-group-approve-btn:disabled {
+  background-color: #7e7e7e;
+}
+
+.image-group-approve-btn:hover:disabled {
+  background-color: #7e7e7e;
+}
+
+.image-group-approve-btn:hover {
+  background-color: #018337;
+}
+
+.request-group-reject-form {
+  text-align: center;
+}
+
+.request-group-reject-form-inp {
+  width: 25rem;
+  padding: 1rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  outline: none;
+  border: none;
+}
+
+.request-group-reject-form-inp:disabled {
+  background-color: #7e7e7e41;
+}
+
+.request-group-reject-form-btn {
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  color: white;
+  padding: 3%;
+  border-radius: 10px;
+  margin-bottom: 2%;
+  margin-left: 0%;
+  background-color: #e74c3c;
+}
+
+.request-group-reject-form-btn:disabled {
+  background-color: #7e7e7e;
+}

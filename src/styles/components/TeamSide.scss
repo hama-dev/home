@@ -1,0 +1,69 @@
+.teamPart {
+  background-image: linear-gradient(
+      to bottom,
+      rgba($color-black, 1),
+      rgba($color-black, 0.6)
+    ),
+    url("https://everesthill.com/wp-content/uploads/2018/01/PUBG-Gas-Mask-Wallpaper.jpg");
+  background-size: cover;
+  height: 550px;
+  position: relative;
+  background-position: center;
+}
+
+.teamPart-text-box {
+  left: 50%;
+  transform: translate(-50%, 0%);
+  text-align: center;
+}
+
+.teamPart-primary-main {
+  display: block;
+  color: red;
+  font-size: 7rem;
+  font-weight: 1900;
+  letter-spacing: 1rem;
+  animation-timing-function: ease-in;
+  animation-duration: 0.9s;
+}
+
+.teamPart-primary-sub {
+  line-height: 80%;
+  position: absolute;
+  top: 40%;
+  left: 25% ;
+  display: block;
+  color: $color-white;
+  font-size: 5rem;
+  font-weight: 1900;
+  letter-spacing: 1rem;
+  animation-timing-function: ease-in;
+  animation-duration: 0.9s;
+}
+
+
+.fir {
+  letter-spacing: 3rem;
+}
+
+.firr {
+  font-size: 3rem;
+}
+
+.sec {
+  letter-spacing: 1.8rem;
+  position: absolute;
+  top: 40%;
+  right: -16%;
+  
+}
+
+.btn-red {
+  margin-top: 300px;
+  background-color: red;
+  color: $color-black;
+}
+
+.btn-red::after {
+  background-color: red;
+}

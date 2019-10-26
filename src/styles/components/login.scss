@@ -1,0 +1,122 @@
+.form-box {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: block;
+}
+
+.loginForm {
+  display: block;
+  background-color: rgba(41, 41, 41, 0.678);
+  height: auto;
+  width: 280px;
+  padding: 1.3rem;
+  padding-top: 4rem;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.form-input {
+  width: 25rem;
+  padding: 1rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  margin-bottom: 2.5rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.form-login-btn {
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  padding: 6px;
+  margin-left: 40%;
+}
+
+.form-login-btn:hover {
+  background-color: rgb(184, 184, 184);
+}
+
+.form-or {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.form-register-btn {
+  text-align: center;
+  font-size: 1.7rem;
+  color: white;
+}
+
+.form-register-btn a:visited,
+.form-register-btn a:link {
+  text-decoration: none;
+  color: rgb(255, 217, 0);
+}
+
+.form-register-btn a:active,
+.form-register-btn a:hover {
+  color: rgb(143, 133, 0);
+}
+
+.login-with-google-btn {
+  width: 25rem;
+  height: 3.6rem;
+  border: none;
+  padding: 1rem;
+  outline: none;
+  font-size: 1.3rem;
+  background-color: rgb(64, 125, 242);
+  color: $color-white;
+  border-radius: 12px;
+}
+
+.login-with-google-btn:hover {
+  background-color: rgb(28, 102, 241);
+}
+
+.google-ionic ion-icon {
+  font-size: 2.5rem;
+  vertical-align: middle;
+  line-height: 120%;
+  margin-top: -5px;
+  margin-right: 1rem;
+}
+
+.login-with-google-txt {
+  font-size: 1.3rem;
+}
+
+.form-error-msg {
+  color: red;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.form-register-main-btn {
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  padding: 6px;
+  margin-left: 38%;
+}
+
+.form-register-main-btn:hover {
+  background-color: rgb(184, 184, 184);
+}
+
+.title-form {
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+  margin-top: -5rem;
+  padding: 4rem;
+}

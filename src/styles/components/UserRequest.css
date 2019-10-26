@@ -1,0 +1,80 @@
+.request-form {
+  margin-top: 70px;
+  width: 60%;
+  margin-left: 20%;
+}
+.request-group-form {
+  position: relative;
+  background-color: #d5d9db;
+  padding: 2rem;
+  font-size: 1rem;
+  margin-top: 1.5%;
+  margin-bottom: 6%;
+  border-radius: 40px;
+}
+.request-img-form {
+  position: absolute;
+  top: 20px;
+  height: 156px;
+  width: 139px;
+  right: 5px;
+  border-radius: 50px;
+}
+.accept-request-form {
+  background-color: #75c46b;
+}
+.waiting-request-form {
+  background-color: #fab244;
+}
+.reject-request-form {
+  background-color: #e74c3c;
+}
+.frm {
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  width: 20%;
+  padding: 2.5%;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  border-radius: 20px;
+  color: white;
+}
+.cancel-send-request {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 1%;
+  margin-top: 2%;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  background-color: #73b1d6;
+  color: #1e474d;
+}
+.cancel-send-request:hover {
+  background-color: #699ebd;
+  color: #1e474d;
+}
+.title-request-form:visited,
+.title-request-form:link {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+.title-request-form:active,
+.title-request-form:hover {
+  display: block;
+  width: auto;
+  text-decoration: none;
+  color: #262626;
+}
+.request-time-details {
+  font-size: 1.3rem;
+  line-height: 50%;
+}
+.title-request-form-txt {
+  font-size: 2rem;
+}
+.request-form-price {
+  font-size: 1.7rem;
+}

@@ -1,0 +1,11 @@
+{
+
+    //every time we use babel we should use this presetes
+    "presets": ["@babel/env" , "@babel/react"],
+
+    // this contain that plugin by babel
+    // plugin-proposal-class-properties ---->>> this plugin let you use arrow function and no more use constructor and bind
+    "plugins": [ "@babel/plugin-proposal-class-properties",
+                "@babel/plugin-proposal-object-rest-spread" , "@babel/plugin-transform-runtime"]
+
+}

@@ -1,0 +1,413 @@
+@media only screen and (max-width: 1406px) {
+  .footer-social-yt ion-icon {
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 1410px) {
+  .span-1-of-4 {
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .span-1-of-4 {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .header-group-ul {
+    margin-left: -11rem;
+  }
+  .card {
+    margin-left: 32%;
+  }
+  .request-form {
+    margin-left: 8%;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .header-group-ul {
+    margin-left: -11rem;
+  }
+  .header-group-ul li a {
+    font-size: 21px;
+  }
+  .header .authHeader {
+    margin-top: 13px;
+  }
+  .footer-about {
+    margin-top: 13px;
+    width: 89%;
+  }
+  .footer-ul {
+    margin-top: 7%;
+    margin-left: 12%;
+  }
+  .footer-social ion-icon {
+    margin-bottom: 23px;
+  }
+  .footer-social {
+    margin-top: 23px;
+    margin-left: 41%;
+  }
+  .footer-ul li {
+    display: block;
+    margin-left: 11%;
+    font-size: 2.3em;
+    margin-bottom: 11%;
+  }
+  .footer-social-yt ion-icon {
+    margin-top: 0;
+  }
+  .login-singub-ul li {
+    right: -4rem;
+  }
+  .heading-primary-main {
+    font-size: 6rem;
+  }
+
+  .heading-primary-sub {
+    font-size: 2.5rem;
+  }
+
+  .teamPart-primary-main {
+    font-size: 5rem;
+  }
+
+  .sec {
+    letter-spacing: 0;
+  }
+  .firr {
+    font-size: 3rem;
+    letter-spacing: 1rem;
+  }
+  .request-form {
+    margin-left: 2%;
+    width: 100%;
+  }
+  .card {
+    margin-left: 28%;
+  }
+  .admin-dashboard-title {
+    font-size: 7rem;
+  }
+
+  .admin-dashboard-btn {
+    font-size: 2.5rem;
+  }
+  .profile-btn {
+    height: 31px;
+    margin-top: -1px;
+    margin-right: -15px;
+  }
+  .profile-btn-b {
+    right: 6em;
+    top: 22px;
+  }
+  .container {
+    width: 100%;
+  }
+  .view-product {
+    left: 50%;
+  }
+
+  .view-post-img {
+    width: 268px;
+  }
+  .header-ul-res {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .header-group-ul-and-auth {
+    visibility: hidden;
+  }
+  .body-header {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
+      ),
+      url("https://i.imgur.com/Ilm1P4f.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .heading-primary-main {
+    font-size: 5rem;
+  }
+  .heading-primary-sub {
+    font-size: 21px;
+    text-align: center;
+    margin-top: 55px;
+  }
+  .heading-primary-sub {
+    letter-spacing: 9px;
+  }
+
+  .btn {
+    padding: 1.2rem 3rem;
+  }
+  .fir {
+    letter-spacing: 7px;
+  }
+
+  .sec {
+    right: -29%;
+  }
+  .fir {
+    left: 17%;
+  }
+  .teamPart-primary-main {
+    font-size: 4rem;
+  }
+  .span-1-of-4 {
+    width: 100%;
+  }
+  .card {
+    margin-left: 28%;
+  }
+  #contact {
+    margin-left: 20%;
+    font-size: 1.5rem;
+  }
+  .image-group {
+    margin-left: 14%;
+  }
+  .image-group:first-child {
+    margin-left: 14%;
+  }
+  .container {
+    width: 100%;
+    text-align: center;
+    height: auto;
+    background: #f5f5f5;
+    box-shadow: 5px 5px 15px rgba(186, 126, 126, 0.5);
+    border-radius: 10px;
+  }
+
+  .view-post-img {
+    height: 299px;
+    margin-top: 26px;
+    margin-left: 0;
+    width: 250px;
+  }
+  .view-product {
+    height: 100%;
+    position: initial;
+    width: auto;
+    padding: 10%;
+  }
+
+  .sizes {
+    margin-left: 0;
+    margin-top: 24px;
+  }
+
+  .view-post-price {
+    margin-top: 5px;
+  }
+
+  .desc {
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .view-post-buyNow {
+    margin: 0;
+    margin-bottom: 25px;
+  }
+
+  .send-request-price {
+    display: block;
+    margin-top: 11px;
+  }
+  .send-requesy-quantity {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .send-requesy-btn-buynow {
+    margin-top: 5%;
+  }
+  .footer {
+    text-align: center;
+  }
+  .span-1-of-3 {
+    width: 100%;
+  }
+  .footer-about {
+    font-size: 1.7em;
+  }
+  .footer-ul {
+    margin-left: 0;
+    margin-bottom: 23px;
+  }
+
+  .footer-ul {
+    padding: 0;
+  }
+
+  .footer-ul li {
+    margin-left: 0;
+    margin-right: 8%;
+    display: inline;
+  }
+  .footer-social {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .btn-nav-res {
+    visibility: visible;
+  }
+  .header-ul-res {
+    margin-right: -10px;
+    margin-left: -274px;
+    transition: 1s;
+  }
+  .header-group {
+    margin-left: 354px;
+    margin-bottom: -7px;
+  }
+  .header-ul-res ul li {
+    z-index: 9999;
+    display: inline-block;
+    width: 50%;
+    margin-left: 27%;
+    text-align: center;
+  }
+  .profile-btn-a {
+    position: relative;
+    margin-right: 0;
+  }
+  .logout-btn {
+    position: relative;
+  }
+  .header-tab {
+    margin-right: 0;
+  }
+  .logout-btn {
+    right: 0;
+    top: 0;
+  }
+  .profile-btn-b {
+    position: relative;
+    margin-left: -1em;
+    right: 0;
+    top: 0;
+  }
+  .header {
+    transition: 0.5s;
+  }
+  .newHeader {
+    margin-bottom: 17rem;
+    transition: 0.8s;
+  }
+  .card-from-lock-icon {
+    margin-left: 40%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .body-header {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
+      ),
+      url("https://i.imgur.com/QFkUAUG.jpg");
+  }
+  .card {
+    margin-left: 16%;
+  }
+  .admin-dashboard {
+    margin-left: 0%;
+  }
+  .admin-dashboard-btn {
+    width: 100%;
+  }
+  .admin-dashboard-title {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .body-header {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
+      ),
+      url("https://i.imgur.com/STVJpcf.jpg");
+    // https://i.imgur.com/gIFdzSp.jpg
+    // http://www.simpleimageresizer.com/_uploads/photos/e4eb9ffc/70170669_695582284289320_8966170523083997184_n_250x480.jpg
+  }
+  .card {
+    margin-left: 0;
+    width: 100%;
+  }
+  .request-group-form {
+    position: relative;
+    text-align: center;
+  }
+  .request-img-form {
+    position: inherit;
+    float: inherit;
+    height: 218px;
+    width: 190px;
+    margin-left: inherit;
+  }
+
+  .title-request-form-txt {
+    font-size: 2rem;
+  }
+
+  .request-form-price {
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+
+  .request-time-details {
+    font-size: 1.8rem;
+    line-height: 66%;
+  }
+
+  .frm {
+    position: inherit;
+    width: 53%;
+    font-size: 1.8rem;
+    border-radius: 20px;
+    margin-top: 10px;
+  }
+
+  .cancel-send-request {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 3%;
+    margin-top: 14px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    background-color: #73b1d6;
+    color: #1e474d;
+  }
+  #contact {
+    width: 100%;
+    margin-left: 0;
+  }
+  .product {
+    width: 24em;
+    height: 50em;
+  }
+  .card-from-lock-icon {
+    margin-left: 27%;
+  }
+  .fir {
+    left: 8%;
+  }
+  .firr {
+    letter-spacing: 5.2px;
+  }
+}

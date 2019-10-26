@@ -1,0 +1,63 @@
+.shop-container {
+  height: 600px;
+  position: relative;
+  
+}
+
+.image-group{
+  margin-left: 0;
+}
+
+.shopRight {
+  background-image: linear-gradient(
+      to bottom,
+      rgba($color-black, 0.4),
+      rgba($color-black, 1)
+    ),
+    url("https://www.pixel4k.com/wp-content/uploads/2019/05/pubg-4k-games_1558221415.jpg");
+
+  background-size: cover;
+  position: absolute;
+  clip-path: polygon(100% 0, 100% 0%, 100% 100%, 0% 100%);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 710px;
+    z-index: -1;
+
+}
+
+.shopLeft {
+  background-image: linear-gradient(
+      to bottom,
+      rgba($color-black, 0.4),
+      rgba($color-black, 1)
+    ),
+    url("https://i.imgur.com/OXjKGyU.jpg");
+
+  background-size: cover;
+  position: absolute;
+  clip-path: polygon(0% 0, 95% 0, 0% 95%, 0 80%);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 710px;
+   z-index: -1;
+
+}
+
+.shop-text-box {
+  left: 50%;
+  transform: translate(-50%, 0%);
+  text-align: center;
+}
+
+.btn-blue {
+  margin-top: 32rem;
+  background-color: rgb(47, 67, 90);
+  color: rgb(163, 202, 248);
+}
+
+.btn-blue::after {
+  background-color: rgb(47, 67, 90);
+}

@@ -1,0 +1,71 @@
+.PlayerGroup-card {
+  margin: 0;
+  padding: 0;
+  max-width: 1140px;
+  margin-bottom: 4rem;
+}
+
+.PlayerGroup-form {
+  border-radius: 20px;
+  margin: 0 auto;
+  background-color: rgba(223, 201, 203, 0.596);
+  height: 420px;
+  width: 300px;
+  margin-top: 14%;
+}
+
+.PlayerGroup-form {
+  background: linear-gradient(to right bottom, rgba(#000, 0.3), rgba(#000, 0.3)),
+    url("https://i.imgur.com/DG7GZYI.png");
+  background-size: 370px auto;
+  background-repeat: no-repeat;
+}
+.player-group-title {
+  padding: 5%;
+  margin-top: -2%;
+  background-color: rgba(0, 0, 0, 0.699);
+  height: 115px;
+  border-radius: 15px;
+}
+
+.playerGroup-name {
+  font-size: 3em;
+  color: white;
+}
+
+.playerGroup-nickname {
+  font-size: 2rem;
+  color: rgb(255, 238, 0);
+  margin-top: -4%;
+}
+
+.playerGroup-img {
+  margin-bottom: 0.2%;
+  height: 310px;
+  width: auto;
+}
+
+.player-group-ul {
+  list-style-type: none;
+  display: flex;
+  margin-left: 71%;
+  margin-top: -25%;
+}
+.player-group-ul li {
+  display: inline;
+  margin-left: 5%;
+}
+.player-group-insta-li {
+}
+
+.player-group-fb-li {
+}
+.playerGroup-insta {
+  height: 39px;
+  width: 39px;
+}
+
+.playerGroup-fb {
+  height: 39px;
+  width: 40px;
+}
